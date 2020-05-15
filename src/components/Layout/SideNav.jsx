@@ -80,7 +80,7 @@ const SideNav = ({ children }) => {
                 <ListItemText primary="Estadísticas" />
               </ListItem>
             </Link>
-            <Link style={mystyle} to="/access" className={classes.link}>
+            <Link style={mystyle} to="/" className={classes.link}>
               <ListItem button>
                 <ListItemIcon>
                   <ExitToAppIcon />
