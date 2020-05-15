@@ -68,7 +68,7 @@ const SideNav = ({ children }) => {
         <div className={classes.drawerContainer}>
           <List>
             <Link to="/dashboard" style={mystyle} className={classes.link}>
-              <ListItem button key={text}>
+              <ListItem button>
                 <ListItemIcon>
                   <CheckBoxIcon />
                 </ListItemIcon>
